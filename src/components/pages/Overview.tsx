@@ -1,6 +1,6 @@
 import React from 'react';
 import { Users, MessageSquare, Bell, AlertTriangle } from 'lucide-react';
-import { LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
+import { LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import StatCard from '../common/StatCard';
 import { mockStats, mockHealthTopics, mockConversationData } from '../../data/mockData';
 import './Overview.css';
