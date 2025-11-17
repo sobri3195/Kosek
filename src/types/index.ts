@@ -78,6 +78,7 @@ export interface DashboardStats {
 export interface HealthTopic {
   name: string;
   count: number;
+  [key: string]: string | number;
 }
 
 export type UserRole = 'admin' | 'doctor' | 'support';
